@@ -1,0 +1,81 @@
+
+/* user styles
+-------------------------------------------------- */
+
+.outline{
+	outline: 2px dashed gray;
+}
+
+.outline-red{
+	/* outline: 1px solid red; */
+	background-color: red;
+}
+
+.outline-green{
+	/* outline: 1px solid green; */
+	background-color: rgba(0, 128, 0, 0.5);
+}
+
+.outline-blue{
+	outline: 1px solid blue;
+	background-color: rgba(0, 0, 255, 0.5);
+}
+
+.bg-gray{
+	background-color: rgba(129, 122, 122, 0.42);
+}
+
+.placeholder{
+	height: 400px;
+}
+
+.header{
+	margin:0; 
+	height: 48px; 
+	text-align: center;
+	line-height: 48px;
+}
+
+.footer{
+	margin:0; 
+	height: 48px; 
+	text-align: center;
+	line-height: 48px;
+}
+
+
+ 
+/* debug styles to show/hide header texts 
+-------------------------------------------------- */
+ 
+@media only screen {
+	[class*="header-"]{
+		display: none;
+	}
+
+	.header-small{
+		display: block;
+	}
+}
+
+@media only screen and (min-width: 481px) {
+	[class*="header-"]{
+		display: none;
+	}
+
+	.header-medium{
+		display: block;
+	}
+
+}
+
+@media only screen and (min-width: 1025px) {
+	[class*="header-"]{
+		display: none;
+	}
+
+	.header-large{
+		display: block;
+	}
+
+}

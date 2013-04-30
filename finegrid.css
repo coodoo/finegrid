@@ -1,0 +1,380 @@
+
+/* common styles
+-------------------------------------------------- */
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.row {
+    width: 100%;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    max-width: 62.5em;
+    *zoom: 1;
+}
+
+.row:before,
+.row:after {
+    content: " ";
+    display: table; /* clearfix */
+}
+
+.row:after {
+    clear: both; /* clearfix */
+}
+
+.row .column,
+.row .columns {
+    float: left;
+    position: relative;
+    width: 100%;
+    padding-right: 0.9375em;
+    padding-left: 0.9375em;
+}
+
+
+.row.collapse .column,
+.row.collapse .columns {
+    float: left;
+    position: relative;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.row .row {
+    width: auto;
+    margin-top: 0;
+    margin-right: -0.9375em;
+    margin-bottom: 0;
+    margin-left: -0.9375em;
+    max-width: none;
+    *zoom: 1;
+}
+
+.row .row:before,
+.row .row:after {
+    content: " ";
+    display: table;
+}
+
+.row .row:after {
+    clear: both;
+}
+
+.row .row.collapse {
+    width: auto;
+    margin: 0;
+    max-width: none;
+    *zoom: 1;
+}
+
+.row .row.collapse:before,
+.row .row.collapse:after {
+    content: " ";
+    display: table;
+}
+
+.row .row.collapse:after {
+    clear: both;
+}
+
+
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
+margin: 0;
+padding: 0;
+direction: ltr;
+}
+
+
+/* grid styles
+-------------------------------------------------- */
+ 
+
+.row .offset-1 {
+    position: relative;
+    margin-left: 8.33333%;
+}
+
+.row .offset-2 {
+    position: relative;
+    margin-left: 16.66667%;
+}
+
+.row .offset-3 {
+    position: relative;
+    margin-left: 25%;
+}
+
+.row .offset-4 {
+    position: relative;
+    margin-left: 33.33333%;
+}
+
+.row .offset-5 {
+    position: relative;
+    margin-left: 41.66667%;
+}
+
+.row .offset-6 {
+    position: relative;
+    margin-left: 50%;
+}
+
+.row .offset-7 {
+    position: relative;
+    margin-left: 58.33333%;
+}
+
+.row .offset-8 {
+    position: relative;
+    margin-left: 66.66667%;
+}
+
+.row .offset-9 {
+    position: relative;
+    margin-left: 75%;
+}
+
+.row .offset-10 {
+    position: relative;
+    margin-left: 83.33333%;
+}
+
+[class*="column"] + [class*="column"]:last-child {
+    float: right;
+}
+
+[class*="column"] + [class*="column"].end {
+    float: left;
+}
+
+.column.centered,
+.columns.centered {
+    float: none !important;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+} 
+
+
+
+
+/* 
+small - for phone & default
+0 - 480
+-------------------------------------------------- */
+@media only screen {
+    
+    .row .small-1 {
+        position: relative;
+        width: 8.33333%;
+    }
+    
+    .row .small-2 {
+        position: relative;
+        width: 16.66667%;
+        
+        color: red;
+        line-height: 122%;
+    }
+    
+    .row .small-3 {
+        position: relative;
+        width: 25%;
+    }
+    
+    .row .small-4 {
+        position: relative;
+        width: 33.33333%;
+    }
+    
+    .row .small-5 {
+        position: relative;
+        width: 41.66667%;
+    }
+    
+    .row .small-6 {
+        position: relative;
+        width: 50%;
+    }
+    
+    .row .small-7 {
+        position: relative;
+        width: 58.33333%;
+    }
+    
+    .row .small-8 {
+        position: relative;
+        width: 66.66667%;
+    }
+    
+    .row .small-9 {
+        position: relative;
+        width: 75%;
+    }
+    
+    .row .small-10 {
+        position: relative;
+        width: 83.33333%;
+    }
+    
+    .row .small-11 {
+        position: relative;
+        width: 91.66667%;
+    }
+    
+    .row .small-12 {
+        position: relative;
+        width: 100%;
+    }
+    
+}
+
+
+/* 
+medium - for tablet portrait/landscape
+481 - 1024
+-------------------------------------------------- */
+
+@media only screen and (min-width: 481px) {
+    
+    .row .medium-1 {
+        position: relative;
+        width: 8.33333%;
+    }
+    
+    .row .medium-2 {
+        position: relative;
+        width: 16.66667%;
+        
+        color: red;
+        line-height: 122%;
+    }
+    
+    .row .medium-3 {
+        position: relative;
+        width: 25%;
+    }
+    
+    .row .medium-4 {
+        position: relative;
+        width: 33.33333%;
+    }
+    
+    .row .medium-5 {
+        position: relative;
+        width: 41.66667%;
+    }
+    
+    .row .medium-6 {
+        position: relative;
+        width: 50%;
+    }
+    
+    .row .medium-7 {
+        position: relative;
+        width: 58.33333%;
+    }
+    
+    .row .medium-8 {
+        position: relative;
+        width: 66.66667%;
+    }
+    
+    .row .medium-9 {
+        position: relative;
+        width: 75%;
+    }
+    
+    .row .medium-10 {
+        position: relative;
+        width: 83.33333%;
+    }
+    
+    .row .medium-11 {
+        position: relative;
+        width: 91.66667%;
+    }
+    
+    .row .medium-12 {
+        position: relative;
+        width: 100%;
+    }
+    
+}
+
+
+/* 
+large - for desktop
+1024-1600
+-------------------------------------------------- */
+
+@media only screen and (min-width: 1025px) {
+    
+    .row .large-1 {
+        position: relative;
+        width: 8.33333%;
+    }
+    
+    .row .large-2 {
+        position: relative;
+        width: 16.66667%;
+        
+        color: red;
+        line-height: 122%;
+    }
+    
+    .row .large-3 {
+        position: relative;
+        width: 25%;
+    }
+    
+    .row .large-4 {
+        position: relative;
+        width: 33.33333%;
+    }
+    
+    .row .large-5 {
+        position: relative;
+        width: 41.66667%;
+    }
+    
+    .row .large-6 {
+        position: relative;
+        width: 50%;
+    }
+    
+    .row .large-7 {
+        position: relative;
+        width: 58.33333%;
+    }
+    
+    .row .large-8 {
+        position: relative;
+        width: 66.66667%;
+    }
+    
+    .row .large-9 {
+        position: relative;
+        width: 75%;
+    }
+    
+    .row .large-10 {
+        position: relative;
+        width: 83.33333%;
+    }
+    
+    .row .large-11 {
+        position: relative;
+        width: 91.66667%;
+    }
+    
+    .row .large-12 {
+        position: relative;
+        width: 100%;
+    }
+    
+}
