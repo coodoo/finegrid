@@ -66,7 +66,7 @@ Comparison
 
 #### ▼Mobile layout
 
-![](http://f.cl.ly/items/1a1u3j0z363a1C3V0c2a/Finegrid-medium.png)
+![](http://f.cl.ly/items/1a1u3j0z363a1C3V0c2a/finegrid-medium.png)
 
 (by providing small, medium and large options, you can fine tune the layout for tablet and mobile phones, as seen here the layout for tablet in landscape mode)
 
