@@ -1,7 +1,7 @@
 FineGrid
 =========
 
-FineGrid is a light-weight responsive grid system which provides fine-grained control for layouts over phone, tablet and desktop.
+FineGrid is a light-weight responsive grid system which provides fine-grained layout controls across screens.
 
 It can be used on it's own or acts as a "drop-in" replacement for Twitter Bootstrap and Zurb Foundation.
 
