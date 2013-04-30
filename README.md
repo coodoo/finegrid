@@ -73,7 +73,7 @@ Comparison
 How to use ?
 ---------------
 
-Just include ```finegrid.css``` after foundation.css or bootsrap.css.
+Just include ```finegrid.css``` after foundation.css or bootstrap.css.
 
 
 #### Notice
