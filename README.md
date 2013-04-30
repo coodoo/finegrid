@@ -1,11 +1,11 @@
-Finegrid
+FineGrid
 =========
 
-Finegrid is a light-weight responsive grid system which provides fine-grained layout control for phone, tablet and desktop.
+FineGrid is a light-weight responsive grid system which provides fine-grained layout control for phone, tablet and desktop.
 
-It can be used on it's own or acts as a "drop-in" replacement for Twitter Boostrap and Zurb Foundation.
+It can be used on it's own or acts as a "drop-in" replacement for Twitter Bootstrap and Zurb Foundation.
 
-Finegrid is heavily based on Foundation with similar syntax and usage.
+FineGrid is heavily based on Foundation with similar syntax and usage.
 
 Why ?
 -----
@@ -14,7 +14,7 @@ Grid system is of great help when laying out web pages but most popular css fram
 
 This is fine and convenient for most use cases until you want to have more fine-grained control over each layout for phone/tablet/desktop.
 
-Finegrid allows you to assign multiple style sets to each element that can be used according to different screen sizes.
+FineGrid allows you to assign multiple style sets to each element that can be used according to different screen sizes.
 
 A quick syntax sample looks like this:
 
@@ -24,9 +24,9 @@ A quick syntax sample looks like this:
 		</p>
 	</div>
 
-You assigne different sizes to the div element accroding to media query result. 
+You assign different sizes to the div element according to media query result. 
 
-Here's another example, you tell the div elemnent to hide when on mobile phone:
+Here's another example, you tell the div element to hide when on mobile phone:
 
 	<div class="small-0 medium-6 large-9 columns">
 		<p>
@@ -62,11 +62,11 @@ Comparison
 
 (all content blocks are forced to be vertically stacked, no way to fine tune the layout)
 
-###Finegrid provide flexible layout options on different screen sizes
+###FineGrid provide flexible layout options on different screen sizes
 
 #### ▼Mobile layout
 
-![](http://f.cl.ly/items/1a1u3j0z363a1C3V0c2a/finegrid-medium.png)
+![](http://f.cl.ly/items/1a1u3j0z363a1C3V0c2a/Finegrid-medium.png)
 
 (by providing small, medium and large options, you can fine tune the layout for tablet and mobile phones, as seen here the layout for tablet in landscape mode)
 
@@ -77,7 +77,7 @@ Just include ```finegrid.css``` after foundation.css or bootsrap.css.
 
 
 #### Notice
-Finegrid come in un-uglified for easier reading purpose, I assume you have your favorite uglifying program in place to do the job before deployment, right ? If not, have a look at [compass](http://compass-style.org/) ;-)
+FineGrid come in un-uglified for easier reading purpose, I assume you have your favorite uglifying program in place to do the job before deployment, right ? If not, have a look at [compass](http://compass-style.org/) ;-)
 
 
 Example
@@ -92,8 +92,6 @@ Created by Jeremy Lu ([@thecat](https://twitter.com/thecat))
 jeremy [at] pubulous.com.
 
 Feel free to send me questions, bug reports or pull requests.
-
-
 
 
 License
