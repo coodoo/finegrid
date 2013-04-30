@@ -82,12 +82,6 @@
 }
 
 
-div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
-margin: 0;
-padding: 0;
-direction: ltr;
-}
-
 
 /* grid styles
 -------------------------------------------------- */
@@ -168,6 +162,15 @@ small - for phone & default
 -------------------------------------------------- */
 @media only screen {
     
+    .row [class*="small-"]{
+        display: block;
+    }
+    
+    /* will hide the element */
+    .row .small-0 {
+        display: none;
+    }
+
     .row .small-1 {
         position: relative;
         width: 8.33333%;
@@ -241,6 +244,16 @@ medium - for tablet portrait/landscape
 
 @media only screen and (min-width: 481px) {
     
+    .row [class*="medium-"]{
+        display: block;
+    }
+
+    /* will hide the element */
+    .row .medium-0 {
+        display: none;
+    }
+
+
     .row .medium-1 {
         position: relative;
         width: 8.33333%;
@@ -314,6 +327,15 @@ large - for desktop
 
 @media only screen and (min-width: 1025px) {
     
+    .row [class*="large-"]{
+        display: block;
+    }
+
+    /* will hide the element */
+    .row .large-0 {
+        display: none;
+    }
+
     .row .large-1 {
         position: relative;
         width: 8.33333%;
