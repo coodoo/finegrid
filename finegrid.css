@@ -179,9 +179,6 @@ small - for phone & default
     .row .small-2 {
         position: relative;
         width: 16.66667%;
-        
-        color: red;
-        line-height: 122%;
     }
     
     .row .small-3 {
@@ -262,9 +259,6 @@ medium - for tablet portrait/landscape
     .row .medium-2 {
         position: relative;
         width: 16.66667%;
-        
-        color: red;
-        line-height: 122%;
     }
     
     .row .medium-3 {
@@ -344,9 +338,6 @@ large - for desktop
     .row .large-2 {
         position: relative;
         width: 16.66667%;
-        
-        color: red;
-        line-height: 122%;
     }
     
     .row .large-3 {
