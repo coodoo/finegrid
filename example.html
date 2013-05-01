@@ -15,12 +15,25 @@
 
 	<!-- custom styles go here -->
 	<link rel="stylesheet" type="text/css" href="user-styles.css">
+	
+	<style>
+		/* Debugging :: showing outline for each element
+		-------------------------------------------------- */
+		* { outline: 2px dotted red }
+		* * { outline: 2px dotted green }
+		* * * { outline: 2px dotted orange }
+		* * * * { outline: 2px dotted blue }
+		* * * * * { outline: 1px solid red }
+		* * * * * * { outline: 1px solid green }
+		* * * * * * * { outline: 1px solid orange }
+		* * * * * * * * { outline: 1px solid blue }
+	</style>
 </head>
 
 	<body>
 		
 		<!-- header -->
-		<div class="row outline bg-gray">
+		<div class="row bg-gray">
 			<div class="small-12 medium-12 large-12 columns">
 				<p class="header header-small">header - small</p>
 				<p class="header header-medium">header - medium</p>
@@ -32,14 +45,14 @@
 		<div class="row outline">
 			
 		  <!-- left part  -->
-		  <div class="small-12 medium-6 large-9 columns outline-red placeholder">
+		  <div class="small-12 medium-6 large-9 columns bg-red placeholder">
 		  	<p>
 		  		content
 		  	</p>
 		  </div>
 
 		  <!-- right part  -->
-		  <div class="small-12 medium-6 large-3 columns outline-blue placeholder">
+		  <div class="small-12 medium-6 large-3 columns bg-green placeholder">
 		  	<p>side bar</p>
 		  </div>
 		  

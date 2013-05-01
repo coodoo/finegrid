@@ -2,22 +2,15 @@
 /* user styles
 -------------------------------------------------- */
 
-.outline{
-	outline: 2px dashed gray;
-}
-
-.outline-red{
-	/* outline: 1px solid red; */
+.bg-red{
 	background-color: red;
 }
 
-.outline-green{
-	/* outline: 1px solid green; */
+.bg-green{
 	background-color: rgba(0, 128, 0, 0.5);
 }
 
-.outline-blue{
-	outline: 1px solid blue;
+.bg-blue{
 	background-color: rgba(0, 0, 255, 0.5);
 }
 
